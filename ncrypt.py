@@ -12,7 +12,6 @@ class Narizu():
 			result = ""
 			data = txt.encode("utf8")
 			base = base64.b64encode(data).decode("utf8")
-			print(f"Base64 : {base}")
 			ress = re.split("", base)
 			ress.pop(0)
 			ress.pop(-1)
