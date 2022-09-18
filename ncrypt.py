@@ -20,3 +20,7 @@ class Narizu():
 				result += narizu
 			haha = f"$n${key}${result}"
 			return haha
+
+# Usage :
+# n = Narizu()
+# print(n.encrypt(<flag>, <key>))
